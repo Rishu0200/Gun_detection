@@ -7,4 +7,6 @@ Gun_Detection.egg-info/
 .ipynb_checkpoints/
 logs/
 tensorboard_logs/
-artifacts/
+models/
+raw/
+
