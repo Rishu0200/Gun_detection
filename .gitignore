@@ -9,3 +9,4 @@ logs/
 tensorboard_logs/
 artifacts/
 
+/artifacts
