@@ -48,7 +48,7 @@ class ModelTraining:
         try:
             dataset = GunDataset(self.dataset_path,self.device)
 
-            dataset = torch.utils.data.Subset(dataset,range(30))
+            dataset = torch.utils.data.Subset(dataset,range(300))
 
             train_size = int(0.8*len(dataset))
             val_size = len(dataset) - train_size
