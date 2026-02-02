@@ -1,0 +1,8 @@
+[core]
+    remote = myremote3
+['remote "myremote"']
+    url = gs://my-dvc-bucket-97/
+['remote "myremote2"']
+    url = gs://my-dvc-bucket-gun/
+['remote "myremote3"']
+    url = gs://gun-detection/

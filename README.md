@@ -299,6 +299,7 @@ This project is intended for educational and research purposes.
 ## 📞 Support
 
 For issues, questions, or suggestions, please open an issue in the project repository.
+Email- Rishabhanand0200@gmail.com
 
 ---
 
