@@ -12,3 +12,5 @@ fastapi[all]
 uvicorn
 Pillow
 python-dotenv
+dvc-gs
+google-cloud-storage
