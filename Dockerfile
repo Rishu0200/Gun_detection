@@ -61,4 +61,4 @@ COPY Dockerfile requirements.txt .
 EXPOSE 5000
 
 # Single worker for 512MB limit
-CMD ["gunicorn", "-w", "1", "-k", "uvicorn.workers.UvicornWorker", "main:app"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5000", "--workers", "1"]
