@@ -31,4 +31,4 @@ RUN python pipeline/training_pipeline.py
 EXPOSE 5000
 
 # Run the app 
-CMD ["gunicorn", "-w", "3", "-b", "0.0.0.0:5000", "main:app"]
+CMD ["gunicorn", "-w", "1", "-b", "0.0.0.0:5000", "main:app"]
